@@ -1,0 +1,64 @@
+h1 {
+  color:Aquamarine; 
+  text-align:Center;
+  font-family:"Impact";
+  font-size:60px;
+}
+p1 {
+  color: White;
+    font-size:26px;
+  font-family:"Georgia";
+}
+.dropdown1{
+    position:relative;
+  display:inline block;
+    color:white;
+  font-size:40px;
+  font-style:bold;
+  text-align:center;
+  
+}
+
+#mealFinal {
+  color:White;
+   font-family:"Georgia";
+  font-style:bold;
+  font-size:20px;
+}
+#InOut {
+  color:White;
+  font-family:"Georgia";
+  font-style:bold;
+  font-size:20px;
+}
+#InNOut 
+{
+  color:white;
+  font-family:"Georgia";
+    font-style:bold;
+  font-size:21px;
+}
+button {
+  background-color:grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  width:700px;
+   margin: auto;
+  display:block;
+  font-size:18px;
+ background: rgba(0, 0, 0, 0.4);
+}
+a {
+  color:bisque;
+  font-size:20px;
+  font-family:"Georgia";
+}
+h2 {
+  color:Coral;
+  text-align:center;
+  
+}
+body {
+ background-image:url("https://cdn.citynomads.com/wp-content/uploads/2018/03/19004107/PS-Cafe-Ann-Siang-Hill.jpg");
+}

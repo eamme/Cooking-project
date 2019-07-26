@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>cooking project</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+  </head>
+  <body> 
+    <h1> Food without Thought </h1>
+    <button><h2> The easiest online meal generator!</h2>
+    <div class= "dropdown1">
+     <P1>What meal are you planning to  eat?</P1>
+  <br>
+      <select class="selection" id='selection1' onchange="changedMeal()">
+        <option value="!!!">choose
+      </option>
+        <option value="Breakfast">Breakfast
+      </option>
+         <option value="Lunch">Lunch
+      </option>
+         <option value="Dinner">Dinner
+      </option>
+      </select>
+    </div>
+    <div class= "dropdown1">
+     <P1 id="Q2">Do you want to eat out or make it yourself?</P1>
+  <br>
+      <select class="selection" id="selection2" onchange="changedMeal()">
+        <option value=""> choose</option>
+        <option value="EatOut">Eat Out
+      </option>
+         <option value="Make">Make it yourself
+      </option>
+        
+
+      </select>
+      <div class= "dropdown1">
+     <P1>What kind of food are you hungry for?</P1>
+  <br>
+      <select id="selection3" onchange="changedMeal()">
+        <option value="+++">choose
+      </option>
+        <option value="food1">Fast
+      </option>
+         <option value="food2">Mexican
+      </option>
+         <option value="food3">Indian
+      </option>
+        <option value="food4">Sea Food
+        </option>
+        <option value="food5">Chinese 
+        </option>
+        <option value="food6">Barbaque 
+        </option>
+        <option value="food7">All American 
+        </option>
+        <option value="food8">Italian
+        </option>
+        </select>
+        </button>
+        <br></br>
+      <br>
+         <button> <p3>If you want to have <span id="mealFinal"></span>,<span class="eatoutFinal"></span></p3>
+        <p4><span id="InOut"></span><span class="eatoutFinal"></span></p4>
+        <p5>and eat <span id="InNOut"></span><span class="eatoutFinal">food; then the best options for your meal would be
+          </span> <onclick="myFunction()" class="dropbtn"><Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="https://www.allrecipes.com/recipe/74337/fiery-fish-tacos-with-crunchy-corn-salsa/?internalSource=hub%20recipe&referringId=126&referringContentType=Recipe%20Hub">Option 1</a>
+    <a href="https://www.allrecipes.com/recipe/16641/red-lentil-curry/?internalSource=hub%20recipe&referringContentType=Search">Option 2</a>
+    <a href="https://www.pandaexpress.com/menu">Option 3</a> 
+    <a href="https://www.allrecipes.com/recipe/162760/fluffy-pancakes/?internalSource=hub%20recipe&referringContentType=Search">Option 4</a> 
+    <a href="https://www.pizzahut.com/?ds_rl=1149043&gclid=Cj0KCQjwyerpBRD9ARIsAH-ITn9d1SK7aLqXfyxG2k96IAW446OX5uZ68hpmonelu3IAGbm7Rezw5kkaAo6iEALw_wcB&gclsrc=aw.ds">Option 5</a> 
+    <br>
+    <p5>And if you would like a seperate dessert options for the meal you've chosen then click the link below</p5>
+    <br>
+    <a href="https://www.allrecipes.com/recipe/8271/raspberry-white-chocolate-mousse/?internalSource=hub%20recipe&referringId=1566&referringContentType=Recipe%20Hub">Click here!</a>
+    <br>
+    <a href="https://www.allrecipes.com/recipe/8350/chantals-new-york-cheesecake/?internalSource=hub%20recipe&referringId=79&referringContentType=Recipe%20Hub">Or here!
+    </a>
+    <br>
+    <a href="https://mcconnells.com/">And here!
+    </a>
+    </button>
+    </div>
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
